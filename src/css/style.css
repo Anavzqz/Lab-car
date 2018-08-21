@@ -1,0 +1,14 @@
+.taxi {
+    background-image: url("../assets/taxi.jpg");
+}
+.viajar {
+    background-color: yellow;
+}
+.btn {
+    border-radius: 10%;
+    border-color: black;
+    background-color: white;
+}
+.drive {
+    background-image: url("../assets/conduce.jpg")
+}
