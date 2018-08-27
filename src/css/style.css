@@ -1,14 +1,131 @@
-.taxi {
-    background-image: url("../assets/taxi.jpg");
+body {
+    color: #FFFFFF;
+}
+.navbar-toggler {
+    color: #F7B617;
+    margin-right: 0%;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.container{
+    margin-top: 0%;
+    padding-top: 0%;
+    position: relative;
+    display: inline-block;
+}
+.responsive-img{
+    margin-top: 0%;
+    padding-top: 0%;
+    position: relative;
+    display: block;
+    text-align: right;
+    height: 100%;
+    width: 110%;
 }
 .viajar {
-    background-color: yellow;
+    background-color: #F7B617;
+    position: absolute;
+    padding: 1em;
+    height: 8em;
+    width: 20em;
+    top: 50%;
+    left: 57%;
+    transform: translate(-35%, -50%);
+}
+.logo {
+    width: 20%;
 }
 .btn {
-    border-radius: 10%;
-    border-color: black;
+    border-radius: 8%;
+    border: none;
+    width: 10em;
+    height: 2.5em;
     background-color: white;
 }
-.drive {
-    background-image: url("../assets/conduce.jpg")
+.container-middle {
+    margin-right: 0%;
+    color: #FFFFFF;
+    background-color: #F7B617;
 }
+.text1 {
+    padding-top: 1em;
+}
+.img-iphone {
+    padding: 1em;
+    display: inline-block;
+    margin-left: 5em;
+    border: 1px solid#FFFFFF;
+}
+.drive {
+    color: #F6FFFF;
+    position: absolute;
+    height: 8em;
+    width: 20em;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.driver {
+    filter:brightness(0.5);
+}
+.text-driver {
+    font-size: 1em;
+    color: #FFFFFF;
+    width: 15em;
+    height: 2.5em;
+    border-radius: 6%;
+    background-color: #F7B617;
+    
+}
+.rates {
+    color: #F6FFFF;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    background-color: #F7B617;
+}
+.form-control {
+    border-color: #FFFFFF;
+    background-color: #F7B617;
+    width: 25em;
+    margin-left: .5em;
+    margin-bottom: .8em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    height: 30px; 
+}
+.form-control::placeholder {
+    color: #FFFFFF;
+}
+.route {
+    color: solid black;
+    background-color: #FFFFFF;
+    width: 12em;
+    height: 3em;
+    border-radius: .5em;
+    border: none;
+    margin: 1em;
+}
+.map {
+    width: 100%;
+    display: block;    
+}
+.img-map {
+    border: 1px solid #FFFFFF;
+    margin: 2em;
+    
+}
+.ult-footer {
+    background-color: #2B2B2B;
+    padding: .8em;
+}
+.ult-head {
+    padding-left: 0%;
+    margin-left: 0%;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.list2 {
+    border-bottom: 1px solid #FFFFFF;
+}
+
